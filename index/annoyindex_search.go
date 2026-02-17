@@ -89,6 +89,7 @@ func (idx *AnnoyIndexImpl[TV, TIX]) GetNnsByVector(
 	}
 
 	cnt := 0
+	nnsLen := bc.length
 
 	for cnt < numNodesToInspect && !q.Empty() {
 		top := q.Top()
@@ -102,16 +103,24 @@ func (idx *AnnoyIndexImpl[TV, TIX]) GetNnsByVector(
 		nDescendants := nd.GetNumberOfDescendants()
 
 		if nDescendants == 1 && i < idx._n_items {
-			bc.nns[cnt] = i
-			cnt++
-		} else if nDescendants <= idx.maxDescendants {
-			dst := nd.GetChildren()
-			if len(dst) == int(nDescendants) {
-				copy(bc.nns[TIX(cnt):], dst)
-			} else {
-				copy(bc.nns[TIX(cnt):], dst[:nDescendants])
+			if cnt < nnsLen {
+				bc.nns[cnt] = i
+				cnt++
 			}
-			cnt += int(nDescendants)
+		} else if nDescendants <= idx.maxDescendants {
+			n := int(nDescendants)
+			remaining := nnsLen - cnt
+			if remaining <= 0 {
+				break
+			}
+			if n > remaining {
+				n = remaining
+			}
+			dst := nd.GetChildren()
+			if len(dst) >= n {
+				copy(bc.nns[TIX(cnt):], dst[:n])
+			}
+			cnt += n
 		} else {
 			// Node is normal of the split plane.
 			margin := idx.distance.Margin(nd, vector)
