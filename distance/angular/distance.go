@@ -4,9 +4,9 @@ import (
 	"math"
 	"unsafe"
 
-	"github.com/mariotoffia/goannoy/distance"
-	"github.com/mariotoffia/goannoy/interfaces"
-	"github.com/mariotoffia/goannoy/vector"
+	"github.com/4thel00z/goannoy/distance"
+	"github.com/4thel00z/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/vector"
 )
 
 type angularDistanceImpl[TV interfaces.VectorType, TIX interfaces.IndexTypes] struct {

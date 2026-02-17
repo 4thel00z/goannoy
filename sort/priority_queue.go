@@ -3,7 +3,7 @@ package sort
 import (
 	"container/heap"
 
-	"github.com/mariotoffia/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/interfaces"
 	"golang.org/x/exp/constraints"
 )
 

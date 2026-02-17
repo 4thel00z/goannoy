@@ -3,7 +3,7 @@ package utils
 import (
 	"unsafe"
 
-	"github.com/mariotoffia/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/interfaces"
 )
 
 func GetPtr[TV interfaces.VectorType, TIX interfaces.IndexTypes](

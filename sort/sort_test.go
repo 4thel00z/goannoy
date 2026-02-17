@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mariotoffia/goannoy/random"
+	"github.com/4thel00z/goannoy/random"
 )
 
 func BenchmarkSortPairsVsSortPairs2(t *testing.B) {

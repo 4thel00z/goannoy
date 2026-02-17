@@ -3,8 +3,8 @@ package utils
 import (
 	"math"
 
-	"github.com/mariotoffia/goannoy/interfaces"
-	"github.com/mariotoffia/goannoy/sort"
+	"github.com/4thel00z/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/sort"
 )
 
 func Max[T interfaces.IndexTypes](a, b T) T {

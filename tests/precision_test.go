@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mariotoffia/goannoy/distance/angular"
-	"github.com/mariotoffia/goannoy/index"
-	"github.com/mariotoffia/goannoy/index/memory"
-	"github.com/mariotoffia/goannoy/index/policy"
-	"github.com/mariotoffia/goannoy/random"
-	"github.com/mariotoffia/goannoy/utils"
+	"github.com/4thel00z/goannoy/distance/angular"
+	"github.com/4thel00z/goannoy/index"
+	"github.com/4thel00z/goannoy/index/memory"
+	"github.com/4thel00z/goannoy/index/policy"
+	"github.com/4thel00z/goannoy/random"
+	"github.com/4thel00z/goannoy/utils"
 	"github.com/stretchr/testify/require"
 )
 

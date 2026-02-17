@@ -5,7 +5,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/mariotoffia/goannoy/utils"
+	"github.com/4thel00z/goannoy/utils"
 )
 
 func (idx *AnnoyIndexImpl[TV, TIX]) Save(fileName string) error {

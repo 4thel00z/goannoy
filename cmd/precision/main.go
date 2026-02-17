@@ -7,9 +7,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/mariotoffia/goannoy/builder"
-	"github.com/mariotoffia/goannoy/random"
-	"github.com/mariotoffia/goannoy/utils"
+	"github.com/4thel00z/goannoy/builder"
+	"github.com/4thel00z/goannoy/random"
+	"github.com/4thel00z/goannoy/utils"
 	"github.com/pkg/profile"
 )
 

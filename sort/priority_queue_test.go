@@ -3,7 +3,7 @@ package sort_test
 import (
 	"testing"
 
-	"github.com/mariotoffia/goannoy/sort"
+	"github.com/4thel00z/goannoy/sort"
 	"github.com/stretchr/testify/assert"
 )
 

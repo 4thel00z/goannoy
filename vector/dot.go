@@ -3,7 +3,7 @@ package vector
 import (
 	"unsafe"
 
-	"github.com/mariotoffia/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/interfaces"
 )
 
 func Dot[TV interfaces.VectorType, TIX interfaces.IndexTypes](a, b []TV, vectorLength TIX) TV {

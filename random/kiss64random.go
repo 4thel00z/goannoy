@@ -1,6 +1,6 @@
 package random
 
-import "github.com/mariotoffia/goannoy/interfaces"
+import "github.com/4thel00z/goannoy/interfaces"
 
 // A random number generator based on the KISS algorithm.
 //

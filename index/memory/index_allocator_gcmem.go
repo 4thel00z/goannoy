@@ -6,7 +6,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/mariotoffia/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/interfaces"
 )
 
 type fileIndexerAllocator struct {

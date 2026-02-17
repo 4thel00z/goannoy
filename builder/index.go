@@ -1,12 +1,12 @@
 package builder
 
 import (
-	"github.com/mariotoffia/goannoy/distance/angular"
-	"github.com/mariotoffia/goannoy/index"
-	"github.com/mariotoffia/goannoy/index/memory"
-	"github.com/mariotoffia/goannoy/index/policy"
-	"github.com/mariotoffia/goannoy/interfaces"
-	"github.com/mariotoffia/goannoy/random"
+	"github.com/4thel00z/goannoy/distance/angular"
+	"github.com/4thel00z/goannoy/index"
+	"github.com/4thel00z/goannoy/index/memory"
+	"github.com/4thel00z/goannoy/index/policy"
+	"github.com/4thel00z/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/random"
 )
 
 type AnnoyIndexBuilderImpl[TV interfaces.VectorType, TIX interfaces.IndexTypes] struct {

@@ -3,7 +3,7 @@ package angular
 import (
 	"unsafe"
 
-	"github.com/mariotoffia/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/interfaces"
 )
 
 // AngularNodeImpl is the node implementation for the angular distance.

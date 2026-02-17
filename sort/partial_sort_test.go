@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mariotoffia/goannoy/interfaces"
-	"github.com/mariotoffia/goannoy/random"
+	"github.com/4thel00z/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/random"
 	"github.com/stretchr/testify/assert"
 )
 

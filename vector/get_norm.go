@@ -3,7 +3,7 @@ package vector
 import (
 	"math"
 
-	"github.com/mariotoffia/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/interfaces"
 )
 
 // GetNorm normalizes the vector v?

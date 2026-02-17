@@ -4,7 +4,7 @@ import (
 	"sort"
 
 	"github.com/jfcg/sorty/v2"
-	"github.com/mariotoffia/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/interfaces"
 )
 
 func SortSlice[TIX interfaces.IndexTypes](slice []TIX) {

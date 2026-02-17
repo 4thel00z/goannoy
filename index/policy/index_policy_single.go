@@ -1,6 +1,6 @@
 package policy
 
-import "github.com/mariotoffia/goannoy/interfaces"
+import "github.com/4thel00z/goannoy/interfaces"
 
 func SingleWorker() *annoyIndexSingleThreadedBuildPolicy {
 	return &annoyIndexSingleThreadedBuildPolicy{}

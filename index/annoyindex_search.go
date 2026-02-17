@@ -3,8 +3,8 @@ package index
 import (
 	"unsafe"
 
-	"github.com/mariotoffia/goannoy/interfaces"
-	"github.com/mariotoffia/goannoy/sort"
+	"github.com/4thel00z/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/sort"
 )
 
 // BatchContext is a context that is used when calling `GetNnsByVector` and

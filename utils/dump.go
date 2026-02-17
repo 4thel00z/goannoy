@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/mariotoffia/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/interfaces"
 )
 
 func DumpNode[TV interfaces.VectorType, TIX interfaces.IndexTypes](

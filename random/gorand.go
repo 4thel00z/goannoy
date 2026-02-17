@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/mariotoffia/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/interfaces"
 )
 
 type GoRandom struct {

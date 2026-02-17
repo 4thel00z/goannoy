@@ -1,4 +1,4 @@
-module github.com/mariotoffia/goannoy
+module github.com/4thel00z/goannoy
 
 require golang.org/x/exp v0.0.0-20230321023759-10a507213a29
 

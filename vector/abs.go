@@ -1,7 +1,7 @@
 package vector
 
 import (
-	"github.com/mariotoffia/goannoy/interfaces"
+	"github.com/4thel00z/goannoy/interfaces"
 )
 
 // Abs is less performant on hardware where floating point operations are
